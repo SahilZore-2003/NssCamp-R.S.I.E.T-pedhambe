@@ -1,0 +1,164 @@
+@media (max-width:370px){
+    .navbar-brand{
+        font-size: 1rem;
+    }
+}
+@media (max-width:330px){
+    .navbar-brand{
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width:500px){
+    .nss-logo h3{
+        font-size: 20px;
+    }
+    .year h4{
+        font-size: 25px !important;
+        color: #330618db ;
+    }
+
+    .title{
+        text-align: center;
+        font-weight: 800;
+        font-size: 30px !important;
+    }
+}
+.logo{
+    width: 13rem;
+    height: 13rem;
+}
+
+#header{
+    width: 100%;
+   
+    margin-top: 2rem;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.nss-logo{
+    text-align: center;
+}
+
+.year{
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    color: rgb(54, 51, 51);
+    
+    
+}
+
+.year h4{
+    font-size: 40px;
+    color: #38071bdf;
+}
+   
+.title{
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+#destination{
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width:500px){
+    #header{
+        width: 100%;
+       height: 85vh;
+        margin-top: 2rem;
+    }
+}
+
+.card{
+   margin: 20px 30px;
+}
+
+.card-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    margin: 10px 0;
+    transition: .2s;
+}
+
+.card-title{
+    text-align: center;
+    font-weight: bold;
+   
+}
+
+.card-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+   
+}
+
+.card-text{
+    text-align: center;
+}
+
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+
+.destination{
+    margin: 20px;
+}
+
+#gallery{
+    width: 100%;
+    height: 100%;
+    padding: 30px 0;
+}
+
+#vlog{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+video{
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px rgba(0,0,0,.75);
+    width: 60%;
+}
+
+@media(max-width:600px){
+    video{
+        border-radius: 10px;
+        box-shadow: 2px 5px 10px rgba(0,0,0,.75);
+        width: 100%;
+    }
+}
+
+#feedback{
+    padding: 20px 10px;
+}
+
+@media (min-width:600px){
+    .carousel-inner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
